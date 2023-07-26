@@ -5,7 +5,7 @@ public abstract class Alimento {    //Abstractac esta clase no te permite trabaj
     protected int NroLote; //podemos acceder a este atributo mediante un protected o un metodo getter
     private Date FechaVto; //yyyy-mm-dd
     private int CodProd;
-
+    
     public Alimento(int NroLote, Date FechaVto, int CodProd) {
         this.NroLote = NroLote;
         this.FechaVto = FechaVto;
@@ -40,6 +40,6 @@ public abstract class Alimento {    //Abstractac esta clase no te permite trabaj
     }
     
     public void Mostrar(){
-        
+        System.out.println("Este es un mensaje nuevo");
     }
 }
