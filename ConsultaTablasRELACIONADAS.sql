@@ -1,0 +1,2 @@
+use agroalimentaria;
+select a.Nom, i.NroLote, i.idInformacionEspecifica from informacionespecifica as i inner join producto as a on i.Producto_idProducto = a.idProducto where i.TipoArt = 'PR' order by a.Nom asc, NroLote asc;
