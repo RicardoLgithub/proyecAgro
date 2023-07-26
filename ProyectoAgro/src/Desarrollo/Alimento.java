@@ -41,5 +41,6 @@ public abstract class Alimento {    //Abstractac esta clase no te permite trabaj
     
     public void Mostrar(){
         System.out.println("Este es un mensaje nuevo");
+        System.out.println("Segundo intento");
     }
 }
